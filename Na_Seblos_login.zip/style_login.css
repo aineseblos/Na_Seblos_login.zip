@@ -1,0 +1,138 @@
+body{
+    background-color: #474973;
+}
+#logo{/*styles the logo*/
+	float: left;
+	size: auto;
+	width: 150px;
+	height: 33px;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	padding-left: 13px;
+}
+.nav {/*styles the nav bar*/
+	background-color: #161b33;
+	overflow: hidden;
+	margin-top: 0px;
+}
+.nav a:hover{/*styles option the cursor is hovering*/
+	background-color: #0d0c1d;
+	color: white;
+	margin-left: 0PX;
+	margin-right: 0px;
+} 
+.nav a.active{/*styles the active page*/
+	background-color: white;
+	color: black;
+}
+.nav a{/*styles the contents in the nav bar*/
+	text-decoration: none;	
+	 font-family: "Arial", serif;
+	color: white;
+	font-size: 20px;
+  	padding: 14px 16px;
+    text-align: center;
+  	font-size: 20px;
+  	float: right;
+}
+.header{
+    float: left;
+    border: solid;  
+    background-color: #a69cac;
+    border-radius: 20px;
+    text-align: left;
+    margin-right: 550px;
+    margin-left: 15px;
+    margin-top: 80px;
+    padding: 10px;
+    position:fixed;
+}
+#title{/*Styles the Header*/
+	font-size: 50px;
+	text-align: left;
+	margin-left: 15px;
+	font-family: "Arial Black", serif;
+	font-weight: bolder;
+}
+#desc{
+    margin-left: 15px;
+}
+.container{
+    float:right;
+    border: solid;
+    border-radius: 20px;
+    position: fixed;
+    margin-left: 65%;
+    margin-top: 35px;
+    padding: 0px 70px 70px;
+    background-color: #a69cac;
+}
+#title2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+#logErr{
+    font-size: 15px;
+    color:white;
+}
+.btns{
+    font-size:12px;
+}
+.btns:hover{/*styles option the cursor is hovering*/
+	background-color: lightgray;
+	border: solid;
+    border-radius: 5px;
+    border-width: 2px;
+} 
+.btns.active{/*styles the active text space*/
+	background-color: lightgray;
+	color: black;
+}
+#sub{
+    margin-top: 10px;
+}
+footer{/*styles the footer*/
+	background-color: #00203FFF;
+	height: 120px;
+  	text-align: center;
+	margin-top: 490px;
+  	padding:  10px;
+}
+
+footer>p{/*styles the content in the footer*/
+	font-size: 18px;	
+	font-family: "Arial", serif;
+	text-align: center;
+	color: white;
+}
+
+.sprite{/*styles the sprite icons*/
+	text-align: center;
+	text-decoration: none;
+}
+#fb{/*styles only the facebook icon*/
+	background: url(images/socmed.jpg) no-repeat -265px -365px/480px 450px;
+	width: 55px;
+	height: 47px;
+	margin-right: 45px;
+	text-decoration: none;
+	border-radius: 45%;
+}
+
+#insta{/*styles only the instagram icon*/
+	background: url(images/socmed.jpg) no-repeat -158px -35px/480px 450px;
+	width: 55px;
+	height: 47px;
+	margin-right: 45px;
+	text-decoration: none;
+	border-radius: 45%;
+}
+
+#tiktok{/*styles only the tiktok icon*/
+	background: url(images/socmed.jpg) no-repeat -212px -365px/480px 450px;
+	width: 55px;
+	height: 47px;
+	text-decoration: none;
+	border-radius: 45%;
+}
